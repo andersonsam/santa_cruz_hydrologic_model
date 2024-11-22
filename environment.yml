@@ -1,0 +1,11 @@
+name: santa_cruz_hydrologic_model
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab=4.0.11
+  - matplotlib=3.8.0
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - tqdm=4.66.2
+prefix: /Users/samanderson/anaconda3/envs/santa_cruz
