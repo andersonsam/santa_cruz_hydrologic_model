@@ -7,7 +7,7 @@ ___
 
 ### Set up Python environment  
 
-#### Option 1: Create environment directly  
+#### Option 1: Create environment directly in terminal  
 1. Create a new folder/directory called 'santa_cruz_hydrologic_model' in the desired location.
 2. In terminal, navigate to santa_cruz_hydrologic_model.
 3. Use conda to create a virtual environment by entering the following text in the terminal window:
@@ -17,7 +17,7 @@ ___
 5. Open Jupyter Lab to run the .ipynb files by entering the following text in the terminal window:
    * jupyter lab
   
-#### Option 2: Create environment from .yml file
+#### Option 2: Create environment from .yml file in terminal
 1. Create a new folder/directory called 'santa_cruz_hydrologic_model' in the desired location.
 2. In terminal, navigate to santa_cruz_hydrologic_model.
 3. Use conda to create a virtual environment by entering the following text in the terminal window:
@@ -25,7 +25,30 @@ ___
 4. Activate the environment by entering the following text in the terminal window:
    * conda activate santa_cruz_hydrologic_model
 5. Open Jupyter Lab to run the .ipynb files by entering the following text in the terminal window:
-   * jupyter lab
+   * jupyter lab  
+
+### Set up directory structure  
+
+* Python
+  * Input
+    * TBD
+  * Input_Climate
+    * TBD
+  * Input_Historical
+    * TBD
+  * Output_HISTORICAL_SIM_Python
+    * This is where the code will save all outputs.  The code will automatically create sub-folders here that are named the same as the scenario. 
+  * Code files (.ipynb)
+* MATLAB
+  * Input
+    * TBD
+  * Input Climate
+    * TBD
+  * Input Historical
+    * TBD
+  * Output HISTORICAL SIM
+  * Code files (.m)
+* environment.yml   
 
 ### Run test code 
 
